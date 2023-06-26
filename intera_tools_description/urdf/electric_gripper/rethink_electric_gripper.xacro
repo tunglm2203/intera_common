@@ -26,9 +26,9 @@
         <geometry>
           <cylinder length="0.1" radius="0.029"/>
         </geometry>
-        <material name="darkred">
+	<!-- <material name="darkred">
           <color rgba=".5 .1 .1 1"/>
-        </material>
+        </material> -->
       </collision>
       <inertial>
         <origin rpy="${-pi/2} ${pi} 0" xyz="0.0 0.0 0.0"/>
@@ -130,7 +130,7 @@
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       </joint>
       <actuator name="gripper_${gripper_side}1_motor1">
-        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <!-- <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface> -->
         <mechanicalReduction>1</mechanicalReduction>
       </actuator>
     </transmission>
@@ -140,7 +140,7 @@
         <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       </joint>
       <actuator name="gripper_${gripper_side}1_motor2">
-        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <!-- <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface> -->
         <mechanicalReduction>1</mechanicalReduction>
       </actuator>
     </transmission>

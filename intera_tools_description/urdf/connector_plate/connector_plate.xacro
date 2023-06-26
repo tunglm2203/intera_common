@@ -23,9 +23,9 @@
         <geometry>
           <cylinder length="${rethink_connector_plate_length*2.0}" radius="0.04"/>
         </geometry>
-        <material name="darkred">
+        <!-- <material name="darkred">
           <color rgba=".5 .1 .1 1"/>
-        </material>
+        </material> -->
     </collision>
   </link>
   <xacro:if value="${gazebo}">
